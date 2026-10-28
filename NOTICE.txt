@@ -1,0 +1,16 @@
+MIDI Guide parameter catalog
+
+Based on MIDI Guide, maintained by Pencil Research and contributors.
+Source: https://github.com/pencilresearch/midi
+Project: https://midi.guide/
+License: Creative Commons Attribution-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-sa/4.0/
+
+SQLite conversion, stable IDs, inferred encodings, and local corrections by
+Vilniaus Blokas UAB. The distributed database adaptation is CC BY-SA 4.0.
+The source revision and build-specific modification information are retained
+in the generated database metadata.
+
+The upstream project notes that device-specific portions may be owned by their
+respective manufacturers. This notice does not grant rights upstream does not
+hold. The dataset is provided without warranties; see the full license text.

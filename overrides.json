@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "products": {
+    "L.L. Electronics/RozzBox One V2": {
+      "bindings": [
+        {
+          "match": {
+            "parameter_name": "Precision Register",
+            "type": "CC",
+            "msb": 117,
+            "lsb": null
+          },
+          "set": {
+            "max_value": 127,
+            "notes": "Unverified fallback: upstream specifies 255 for a single-byte CC. Limited to representable values pending device/manual verification."
+          },
+          "reason": "Single-byte CC cannot encode the upstream maximum of 255; preserve original row and use a conservative 7-bit fallback. Not hardware-verified."
+        }
+      ]
+    }
+  }
+}

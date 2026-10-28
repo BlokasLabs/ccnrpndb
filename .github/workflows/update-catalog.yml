@@ -1,0 +1,42 @@
+# SPDX-License-Identifier: GPL-3.0-only
+# Copyright (C) 2026 Vilniaus Blokas UAB
+
+name: Update and release catalog
+
+on:
+  schedule:
+    - cron: '23 */6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# ID allocation and publication must never run concurrently.
+concurrency:
+  group: catalog-publication
+  cancel-in-progress: false
+
+jobs:
+  update:
+    if: github.ref == format('refs/heads/{0}', github.event.repository.default_branch)
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      CATALOG_BRANCH: ${{ github.event.repository.default_branch }}
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+          fetch-depth: 0
+          submodules: true
+      - name: Check for unpublished changes
+        id: check
+        run: bash scripts/update-catalog.sh --check
+      - name: Test publication workflow
+        if: steps.check.outputs.needed == 'true'
+        run: python3 -B -m unittest discover -s tests -v
+      - name: Update, build, and publish
+        if: steps.check.outputs.needed == 'true'
+        run: bash scripts/update-catalog.sh

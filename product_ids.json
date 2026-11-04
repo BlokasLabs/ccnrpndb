@@ -1,5 +1,3141 @@
 {
   "products": {
+    "1010music/bento": {
+      "active": true,
+      "aliases": [],
+      "id": 1,
+      "manufacturer": "1010music",
+      "name": "bento"
+    },
+    "1010music/nanobox razzmatazz": {
+      "active": true,
+      "aliases": [],
+      "id": 2,
+      "manufacturer": "1010music",
+      "name": "nanobox razzmatazz"
+    },
+    "1010music/nanobox tangerine": {
+      "active": true,
+      "aliases": [],
+      "id": 3,
+      "manufacturer": "1010music",
+      "name": "nanobox tangerine"
+    },
+    "ALM Busy Circuits/mmMidi": {
+      "active": true,
+      "aliases": [],
+      "id": 4,
+      "manufacturer": "ALM Busy Circuits",
+      "name": "mmMidi"
+    },
+    "ASM/Hydrasynth": {
+      "active": true,
+      "aliases": [],
+      "id": 5,
+      "manufacturer": "ASM",
+      "name": "Hydrasynth"
+    },
+    "ASM/Leviasynth": {
+      "active": true,
+      "aliases": [],
+      "id": 6,
+      "manufacturer": "ASM",
+      "name": "Leviasynth"
+    },
+    "Abildgard/Droid-3": {
+      "active": true,
+      "aliases": [],
+      "id": 7,
+      "manufacturer": "Abildgard",
+      "name": "Droid-3"
+    },
+    "Access/Virus A": {
+      "active": true,
+      "aliases": [],
+      "id": 8,
+      "manufacturer": "Access",
+      "name": "Virus A"
+    },
+    "Access/Virus TI": {
+      "active": true,
+      "aliases": [],
+      "id": 9,
+      "manufacturer": "Access",
+      "name": "Virus TI"
+    },
+    "Animal Factory Amplification/Dirty Mirror": {
+      "active": true,
+      "aliases": [],
+      "id": 10,
+      "manufacturer": "Animal Factory Amplification",
+      "name": "Dirty Mirror"
+    },
+    "Animal Factory Amplification/Godeater+": {
+      "active": true,
+      "aliases": [],
+      "id": 11,
+      "manufacturer": "Animal Factory Amplification",
+      "name": "Godeater+"
+    },
+    "Animal Factory Amplification/Ozymandias": {
+      "active": true,
+      "aliases": [],
+      "id": 12,
+      "manufacturer": "Animal Factory Amplification",
+      "name": "Ozymandias"
+    },
+    "Antonus/2600 Original Size": {
+      "active": true,
+      "aliases": [],
+      "id": 13,
+      "manufacturer": "Antonus",
+      "name": "2600 Original Size"
+    },
+    "Arturia/MatrixBrute": {
+      "active": true,
+      "aliases": [],
+      "id": 14,
+      "manufacturer": "Arturia",
+      "name": "MatrixBrute"
+    },
+    "Arturia/MicroFreak": {
+      "active": true,
+      "aliases": [],
+      "id": 15,
+      "manufacturer": "Arturia",
+      "name": "MicroFreak"
+    },
+    "Arturia/MiniFreak": {
+      "active": true,
+      "aliases": [],
+      "id": 16,
+      "manufacturer": "Arturia",
+      "name": "MiniFreak"
+    },
+    "Arturia/PolyBrute": {
+      "active": true,
+      "aliases": [],
+      "id": 18,
+      "manufacturer": "Arturia",
+      "name": "PolyBrute"
+    },
+    "Arturia/PolyBrute 12": {
+      "active": true,
+      "aliases": [],
+      "id": 17,
+      "manufacturer": "Arturia",
+      "name": "PolyBrute 12"
+    },
+    "Audiothingies/Doctor A": {
+      "active": true,
+      "aliases": [],
+      "id": 19,
+      "manufacturer": "Audiothingies",
+      "name": "Doctor A"
+    },
+    "Audiothingies/Micromonsta": {
+      "active": true,
+      "aliases": [],
+      "id": 21,
+      "manufacturer": "Audiothingies",
+      "name": "Micromonsta"
+    },
+    "Audiothingies/Micromonsta 2": {
+      "active": true,
+      "aliases": [],
+      "id": 20,
+      "manufacturer": "Audiothingies",
+      "name": "Micromonsta 2"
+    },
+    "BOSS/GM-800": {
+      "active": true,
+      "aliases": [],
+      "id": 22,
+      "manufacturer": "BOSS",
+      "name": "GM-800"
+    },
+    "BOSS/GT-1000": {
+      "active": true,
+      "aliases": [],
+      "id": 23,
+      "manufacturer": "BOSS",
+      "name": "GT-1000"
+    },
+    "BOSS/GT-1000CORE": {
+      "active": true,
+      "aliases": [],
+      "id": 24,
+      "manufacturer": "BOSS",
+      "name": "GT-1000CORE"
+    },
+    "BOSS/KATANA-Artist MkII": {
+      "active": true,
+      "aliases": [],
+      "id": 26,
+      "manufacturer": "BOSS",
+      "name": "KATANA-Artist MkII"
+    },
+    "BOSS/KATANA-Artist MkII Head": {
+      "active": true,
+      "aliases": [],
+      "id": 25,
+      "manufacturer": "BOSS",
+      "name": "KATANA-Artist MkII Head"
+    },
+    "BOSS/KATANA-Head MkII": {
+      "active": true,
+      "aliases": [],
+      "id": 27,
+      "manufacturer": "BOSS",
+      "name": "KATANA-Head MkII"
+    },
+    "BOSS/SY-1000": {
+      "active": true,
+      "aliases": [],
+      "id": 28,
+      "manufacturer": "BOSS",
+      "name": "SY-1000"
+    },
+    "Bastl Instruments/Kastle 2 Alchemist": {
+      "active": true,
+      "aliases": [],
+      "id": 29,
+      "manufacturer": "Bastl Instruments",
+      "name": "Kastle 2 Alchemist"
+    },
+    "Bastl Instruments/Kastle 2 FX Wizard": {
+      "active": true,
+      "aliases": [],
+      "id": 30,
+      "manufacturer": "Bastl Instruments",
+      "name": "Kastle 2 FX Wizard"
+    },
+    "Bastl Instruments/Kastle 2 Wave Bard": {
+      "active": true,
+      "aliases": [],
+      "id": 31,
+      "manufacturer": "Bastl Instruments",
+      "name": "Kastle 2 Wave Bard"
+    },
+    "Bastl Instruments/Thyme+": {
+      "active": true,
+      "aliases": [],
+      "id": 32,
+      "manufacturer": "Bastl Instruments",
+      "name": "Thyme+"
+    },
+    "Beetlecrab.audio/Tempera": {
+      "active": true,
+      "aliases": [],
+      "id": 33,
+      "manufacturer": "Beetlecrab.audio",
+      "name": "Tempera"
+    },
+    "Beetlecrab.audio/Vector": {
+      "active": true,
+      "aliases": [],
+      "id": 34,
+      "manufacturer": "Beetlecrab.audio",
+      "name": "Vector"
+    },
+    "Behringer/Deepmind 12": {
+      "active": true,
+      "aliases": [],
+      "id": 35,
+      "manufacturer": "Behringer",
+      "name": "Deepmind 12"
+    },
+    "Behringer/JT-4000M MICRO": {
+      "active": true,
+      "aliases": [],
+      "id": 36,
+      "manufacturer": "Behringer",
+      "name": "JT-4000M MICRO"
+    },
+    "Behringer/LM DRUM": {
+      "active": true,
+      "aliases": [],
+      "id": 37,
+      "manufacturer": "Behringer",
+      "name": "LM DRUM"
+    },
+    "Behringer/Neutron": {
+      "active": true,
+      "aliases": [],
+      "id": 38,
+      "manufacturer": "Behringer",
+      "name": "Neutron"
+    },
+    "Behringer/Pro 800": {
+      "active": true,
+      "aliases": [],
+      "id": 39,
+      "manufacturer": "Behringer",
+      "name": "Pro 800"
+    },
+    "Behringer/Pro VS Mini": {
+      "active": true,
+      "aliases": [],
+      "id": 40,
+      "manufacturer": "Behringer",
+      "name": "Pro VS Mini"
+    },
+    "Behringer/TD-3-MO": {
+      "active": true,
+      "aliases": [],
+      "id": 41,
+      "manufacturer": "Behringer",
+      "name": "TD-3-MO"
+    },
+    "Black Corporation/Deckard's Dream": {
+      "active": true,
+      "aliases": [],
+      "id": 43,
+      "manufacturer": "Black Corporation",
+      "name": "Deckard's Dream"
+    },
+    "Black Corporation/Deckard's Dream MK2": {
+      "active": true,
+      "aliases": [],
+      "id": 42,
+      "manufacturer": "Black Corporation",
+      "name": "Deckard's Dream MK2"
+    },
+    "Body Synths/Metal Fetishist": {
+      "active": true,
+      "aliases": [],
+      "id": 44,
+      "manufacturer": "Body Synths",
+      "name": "Metal Fetishist"
+    },
+    "Bradshaw Instruments/Drumkid": {
+      "active": true,
+      "aliases": [],
+      "id": 45,
+      "manufacturer": "Bradshaw Instruments",
+      "name": "Drumkid"
+    },
+    "Chase Bliss/Billy Strings Wombtone": {
+      "active": true,
+      "aliases": [],
+      "id": 46,
+      "manufacturer": "Chase Bliss",
+      "name": "Billy Strings Wombtone"
+    },
+    "Chase Bliss/Bliss Factory": {
+      "active": true,
+      "aliases": [],
+      "id": 47,
+      "manufacturer": "Chase Bliss",
+      "name": "Bliss Factory"
+    },
+    "Chase Bliss/Brothers": {
+      "active": true,
+      "aliases": [],
+      "id": 49,
+      "manufacturer": "Chase Bliss",
+      "name": "Brothers"
+    },
+    "Chase Bliss/Brothers AM": {
+      "active": true,
+      "aliases": [],
+      "id": 48,
+      "manufacturer": "Chase Bliss",
+      "name": "Brothers AM"
+    },
+    "Chase Bliss/CHOMPI TAPE": {
+      "active": true,
+      "aliases": [],
+      "id": 50,
+      "manufacturer": "Chase Bliss",
+      "name": "CHOMPI TAPE"
+    },
+    "Chase Bliss/CHOMPI TEMPO": {
+      "active": true,
+      "aliases": [],
+      "id": 51,
+      "manufacturer": "Chase Bliss",
+      "name": "CHOMPI TEMPO"
+    },
+    "Chase Bliss/CXM 1978": {
+      "active": true,
+      "aliases": [],
+      "id": 52,
+      "manufacturer": "Chase Bliss",
+      "name": "CXM 1978"
+    },
+    "Chase Bliss/Clean": {
+      "active": true,
+      "aliases": [],
+      "id": 53,
+      "manufacturer": "Chase Bliss",
+      "name": "Clean"
+    },
+    "Chase Bliss/Condor": {
+      "active": true,
+      "aliases": [],
+      "id": 54,
+      "manufacturer": "Chase Bliss",
+      "name": "Condor"
+    },
+    "Chase Bliss/Dark World": {
+      "active": true,
+      "aliases": [],
+      "id": 55,
+      "manufacturer": "Chase Bliss",
+      "name": "Dark World"
+    },
+    "Chase Bliss/Generation Loss": {
+      "active": true,
+      "aliases": [],
+      "id": 57,
+      "manufacturer": "Chase Bliss",
+      "name": "Generation Loss"
+    },
+    "Chase Bliss/Generation Loss MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 56,
+      "manufacturer": "Chase Bliss",
+      "name": "Generation Loss MKII"
+    },
+    "Chase Bliss/Gravitas": {
+      "active": true,
+      "aliases": [],
+      "id": 58,
+      "manufacturer": "Chase Bliss",
+      "name": "Gravitas"
+    },
+    "Chase Bliss/Habit": {
+      "active": true,
+      "aliases": [],
+      "id": 59,
+      "manufacturer": "Chase Bliss",
+      "name": "Habit"
+    },
+    "Chase Bliss/Lossy": {
+      "active": true,
+      "aliases": [],
+      "id": 60,
+      "manufacturer": "Chase Bliss",
+      "name": "Lossy"
+    },
+    "Chase Bliss/Lost and Found": {
+      "active": true,
+      "aliases": [],
+      "id": 61,
+      "manufacturer": "Chase Bliss",
+      "name": "Lost and Found"
+    },
+    "Chase Bliss/MOOD": {
+      "active": true,
+      "aliases": [],
+      "id": 63,
+      "manufacturer": "Chase Bliss",
+      "name": "MOOD"
+    },
+    "Chase Bliss/MOOD MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 62,
+      "manufacturer": "Chase Bliss",
+      "name": "MOOD MKII"
+    },
+    "Chase Bliss/Onward": {
+      "active": true,
+      "aliases": [],
+      "id": 64,
+      "manufacturer": "Chase Bliss",
+      "name": "Onward"
+    },
+    "Chase Bliss/Preamp MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 65,
+      "manufacturer": "Chase Bliss",
+      "name": "Preamp MKII"
+    },
+    "Chase Bliss/Reverse Mode C": {
+      "active": true,
+      "aliases": [],
+      "id": 66,
+      "manufacturer": "Chase Bliss",
+      "name": "Reverse Mode C"
+    },
+    "Chase Bliss/Spectre": {
+      "active": true,
+      "aliases": [],
+      "id": 67,
+      "manufacturer": "Chase Bliss",
+      "name": "Spectre"
+    },
+    "Chase Bliss/Thermae": {
+      "active": true,
+      "aliases": [],
+      "id": 68,
+      "manufacturer": "Chase Bliss",
+      "name": "Thermae"
+    },
+    "Chase Bliss/Tonal Recall": {
+      "active": true,
+      "aliases": [],
+      "id": 69,
+      "manufacturer": "Chase Bliss",
+      "name": "Tonal Recall"
+    },
+    "Chase Bliss/Wombtone MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 70,
+      "manufacturer": "Chase Bliss",
+      "name": "Wombtone MKII"
+    },
+    "Chase Bliss/blooper": {
+      "active": true,
+      "aliases": [],
+      "id": 71,
+      "manufacturer": "Chase Bliss",
+      "name": "blooper"
+    },
+    "Conductive Labs/The NDLR": {
+      "active": true,
+      "aliases": [],
+      "id": 72,
+      "manufacturer": "Conductive Labs",
+      "name": "The NDLR"
+    },
+    "Critter & Guitari/Organelle M": {
+      "active": true,
+      "aliases": [],
+      "id": 73,
+      "manufacturer": "Critter & Guitari",
+      "name": "Organelle M"
+    },
+    "Critter & Guitari/Organelle S2": {
+      "active": true,
+      "aliases": [],
+      "id": 74,
+      "manufacturer": "Critter & Guitari",
+      "name": "Organelle S2"
+    },
+    "Cwejman/S1 MK2": {
+      "active": true,
+      "aliases": [],
+      "id": 75,
+      "manufacturer": "Cwejman",
+      "name": "S1 MK2"
+    },
+    "Cyma/ALT": {
+      "active": true,
+      "aliases": [],
+      "id": 76,
+      "manufacturer": "Cyma",
+      "name": "ALT"
+    },
+    "Cyma/RND": {
+      "active": true,
+      "aliases": [],
+      "id": 77,
+      "manufacturer": "Cyma",
+      "name": "RND"
+    },
+    "Darkglass/Anagram": {
+      "active": true,
+      "aliases": [],
+      "id": 78,
+      "manufacturer": "Darkglass",
+      "name": "Anagram"
+    },
+    "Dave Smith Instruments/Evolver": {
+      "active": true,
+      "aliases": [],
+      "id": 79,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Evolver"
+    },
+    "Dave Smith Instruments/Mopho x4": {
+      "active": true,
+      "aliases": [],
+      "id": 80,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Mopho x4"
+    },
+    "Dave Smith Instruments/OB-6": {
+      "active": true,
+      "aliases": [],
+      "id": 81,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "OB-6"
+    },
+    "Dave Smith Instruments/Pro 3": {
+      "active": true,
+      "aliases": [],
+      "id": 82,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Pro 3"
+    },
+    "Dave Smith Instruments/Prophet '08": {
+      "active": true,
+      "aliases": [],
+      "id": 83,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Prophet '08"
+    },
+    "Dave Smith Instruments/Prophet 12": {
+      "active": true,
+      "aliases": [],
+      "id": 84,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Prophet 12"
+    },
+    "Dave Smith Instruments/Prophet Rev2": {
+      "active": true,
+      "aliases": [],
+      "id": 85,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Prophet Rev2"
+    },
+    "Dave Smith Instruments/Prophet X (Prophet XL)": {
+      "active": true,
+      "aliases": [],
+      "id": 86,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "Prophet X (Prophet XL)"
+    },
+    "Dave Smith Instruments/TETRA": {
+      "active": true,
+      "aliases": [],
+      "id": 87,
+      "manufacturer": "Dave Smith Instruments",
+      "name": "TETRA"
+    },
+    "Dirtywave/M8": {
+      "active": true,
+      "aliases": [],
+      "id": 88,
+      "manufacturer": "Dirtywave",
+      "name": "M8"
+    },
+    "Dreadbox/Abyss": {
+      "active": true,
+      "aliases": [],
+      "id": 89,
+      "manufacturer": "Dreadbox",
+      "name": "Abyss"
+    },
+    "Dreadbox/Artemis": {
+      "active": true,
+      "aliases": [],
+      "id": 90,
+      "manufacturer": "Dreadbox",
+      "name": "Artemis"
+    },
+    "Dreadbox/Erebus": {
+      "active": true,
+      "aliases": [],
+      "id": 91,
+      "manufacturer": "Dreadbox",
+      "name": "Erebus"
+    },
+    "Dreadbox/Hades": {
+      "active": true,
+      "aliases": [],
+      "id": 92,
+      "manufacturer": "Dreadbox",
+      "name": "Hades"
+    },
+    "Dreadbox/Murmux V2": {
+      "active": true,
+      "aliases": [],
+      "id": 93,
+      "manufacturer": "Dreadbox",
+      "name": "Murmux V2"
+    },
+    "Dreadbox/Murmux V3 Adept Edition": {
+      "active": true,
+      "aliases": [],
+      "id": 94,
+      "manufacturer": "Dreadbox",
+      "name": "Murmux V3 Adept Edition"
+    },
+    "Dreadbox/Nymphes": {
+      "active": true,
+      "aliases": [],
+      "id": 95,
+      "manufacturer": "Dreadbox",
+      "name": "Nymphes"
+    },
+    "Dreadbox/Nyx": {
+      "active": true,
+      "aliases": [],
+      "id": 96,
+      "manufacturer": "Dreadbox",
+      "name": "Nyx"
+    },
+    "Dreadbox/Telepathy": {
+      "active": true,
+      "aliases": [],
+      "id": 97,
+      "manufacturer": "Dreadbox",
+      "name": "Telepathy"
+    },
+    "Dreadbox/Typhon": {
+      "active": true,
+      "aliases": [],
+      "id": 98,
+      "manufacturer": "Dreadbox",
+      "name": "Typhon"
+    },
+    "E-MU/MP-7 Command Station": {
+      "active": true,
+      "aliases": [],
+      "id": 99,
+      "manufacturer": "E-MU",
+      "name": "MP-7 Command Station"
+    },
+    "Elektron/Analog Four": {
+      "active": true,
+      "aliases": [],
+      "id": 101,
+      "manufacturer": "Elektron",
+      "name": "Analog Four"
+    },
+    "Elektron/Analog Four MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 100,
+      "manufacturer": "Elektron",
+      "name": "Analog Four MKII"
+    },
+    "Elektron/Analog Heat": {
+      "active": true,
+      "aliases": [],
+      "id": 103,
+      "manufacturer": "Elektron",
+      "name": "Analog Heat"
+    },
+    "Elektron/Analog Heat +FX": {
+      "active": true,
+      "aliases": [],
+      "id": 102,
+      "manufacturer": "Elektron",
+      "name": "Analog Heat +FX"
+    },
+    "Elektron/Analog Rytm MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 104,
+      "manufacturer": "Elektron",
+      "name": "Analog Rytm MKII"
+    },
+    "Elektron/Digitakt": {
+      "active": true,
+      "aliases": [],
+      "id": 106,
+      "manufacturer": "Elektron",
+      "name": "Digitakt"
+    },
+    "Elektron/Digitakt II": {
+      "active": true,
+      "aliases": [],
+      "id": 105,
+      "manufacturer": "Elektron",
+      "name": "Digitakt II"
+    },
+    "Elektron/Digitone": {
+      "active": true,
+      "aliases": [],
+      "id": 108,
+      "manufacturer": "Elektron",
+      "name": "Digitone"
+    },
+    "Elektron/Digitone II": {
+      "active": true,
+      "aliases": [],
+      "id": 107,
+      "manufacturer": "Elektron",
+      "name": "Digitone II"
+    },
+    "Elektron/MachineDrum": {
+      "active": true,
+      "aliases": [],
+      "id": 109,
+      "manufacturer": "Elektron",
+      "name": "MachineDrum"
+    },
+    "Elektron/Model Cycles": {
+      "active": true,
+      "aliases": [],
+      "id": 110,
+      "manufacturer": "Elektron",
+      "name": "Model Cycles"
+    },
+    "Elektron/Model Samples": {
+      "active": true,
+      "aliases": [],
+      "id": 111,
+      "manufacturer": "Elektron",
+      "name": "Model Samples"
+    },
+    "Elektron/MonoMachine": {
+      "active": true,
+      "aliases": [],
+      "id": 112,
+      "manufacturer": "Elektron",
+      "name": "MonoMachine"
+    },
+    "Elektron/Octatrack": {
+      "active": true,
+      "aliases": [],
+      "id": 113,
+      "manufacturer": "Elektron",
+      "name": "Octatrack"
+    },
+    "Elektron/Syntakt": {
+      "active": true,
+      "aliases": [],
+      "id": 114,
+      "manufacturer": "Elektron",
+      "name": "Syntakt"
+    },
+    "Elektron/Tonverk": {
+      "active": true,
+      "aliases": [],
+      "id": 115,
+      "manufacturer": "Elektron",
+      "name": "Tonverk"
+    },
+    "Empress/Echosystem": {
+      "active": true,
+      "aliases": [],
+      "id": 116,
+      "manufacturer": "Empress",
+      "name": "Echosystem"
+    },
+    "Empress/Reverb": {
+      "active": true,
+      "aliases": [],
+      "id": 117,
+      "manufacturer": "Empress",
+      "name": "Reverb"
+    },
+    "Endorphin.es/Evil Pet": {
+      "active": true,
+      "aliases": [],
+      "id": 118,
+      "manufacturer": "Endorphin.es",
+      "name": "Evil Pet"
+    },
+    "Enjoy Electronics/The GodFather": {
+      "active": true,
+      "aliases": [],
+      "id": 119,
+      "manufacturer": "Enjoy Electronics",
+      "name": "The GodFather"
+    },
+    "Ensoniq/ASR-X Pro": {
+      "active": true,
+      "aliases": [],
+      "id": 120,
+      "manufacturer": "Ensoniq",
+      "name": "ASR-X Pro"
+    },
+    "Eowave/Portail": {
+      "active": true,
+      "aliases": [],
+      "id": 121,
+      "manufacturer": "Eowave",
+      "name": "Portail"
+    },
+    "Eowave/Quadrantid Swarm": {
+      "active": true,
+      "aliases": [],
+      "id": 122,
+      "manufacturer": "Eowave",
+      "name": "Quadrantid Swarm"
+    },
+    "Erica Synths/Echolocator": {
+      "active": true,
+      "aliases": [],
+      "id": 123,
+      "manufacturer": "Erica Synths",
+      "name": "Echolocator"
+    },
+    "Erica Synths/LXR-02": {
+      "active": true,
+      "aliases": [],
+      "id": 124,
+      "manufacturer": "Erica Synths",
+      "name": "LXR-02"
+    },
+    "Erica Synths/Nightverb": {
+      "active": true,
+      "aliases": [],
+      "id": 125,
+      "manufacturer": "Erica Synths",
+      "name": "Nightverb"
+    },
+    "Erica Synths/PĒRKONS HD-01": {
+      "active": true,
+      "aliases": [],
+      "id": 126,
+      "manufacturer": "Erica Synths",
+      "name": "PĒRKONS HD-01"
+    },
+    "Expert Sleepers/FH-2": {
+      "active": true,
+      "aliases": [],
+      "id": 127,
+      "manufacturer": "Expert Sleepers",
+      "name": "FH-2"
+    },
+    "Expert Sleepers/disting EX": {
+      "active": true,
+      "aliases": [],
+      "id": 128,
+      "manufacturer": "Expert Sleepers",
+      "name": "disting EX"
+    },
+    "Expert Sleepers/disting mk4": {
+      "active": true,
+      "aliases": [],
+      "id": 129,
+      "manufacturer": "Expert Sleepers",
+      "name": "disting mk4"
+    },
+    "Expressive E/Osmose": {
+      "active": true,
+      "aliases": [],
+      "id": 130,
+      "manufacturer": "Expressive E",
+      "name": "Osmose"
+    },
+    "Flame/Curves": {
+      "active": true,
+      "aliases": [],
+      "id": 131,
+      "manufacturer": "Flame",
+      "name": "Curves"
+    },
+    "Flame/Mäander": {
+      "active": true,
+      "aliases": [],
+      "id": 132,
+      "manufacturer": "Flame",
+      "name": "Mäander"
+    },
+    "Fractal Audio Systems/Axe-Fx III": {
+      "active": true,
+      "aliases": [],
+      "id": 133,
+      "manufacturer": "Fractal Audio Systems",
+      "name": "Axe-Fx III"
+    },
+    "Fractal Audio Systems/FM3": {
+      "active": true,
+      "aliases": [],
+      "id": 134,
+      "manufacturer": "Fractal Audio Systems",
+      "name": "FM3"
+    },
+    "Fractal Audio Systems/FM9": {
+      "active": true,
+      "aliases": [],
+      "id": 135,
+      "manufacturer": "Fractal Audio Systems",
+      "name": "FM9"
+    },
+    "Fred's Lab/Buzzzy!": {
+      "active": true,
+      "aliases": [],
+      "id": 136,
+      "manufacturer": "Fred's Lab",
+      "name": "Buzzzy!"
+    },
+    "Fred's Lab/Manatee": {
+      "active": true,
+      "aliases": [],
+      "id": 137,
+      "manufacturer": "Fred's Lab",
+      "name": "Manatee"
+    },
+    "Fred's Lab/Tooro": {
+      "active": true,
+      "aliases": [],
+      "id": 138,
+      "manufacturer": "Fred's Lab",
+      "name": "Tooro"
+    },
+    "GEM/rp-x": {
+      "active": true,
+      "aliases": [],
+      "id": 139,
+      "manufacturer": "GEM",
+      "name": "rp-x"
+    },
+    "GS Music/Bree6": {
+      "active": true,
+      "aliases": [],
+      "id": 140,
+      "manufacturer": "GS Music",
+      "name": "Bree6"
+    },
+    "GS Music/e7": {
+      "active": true,
+      "aliases": [],
+      "id": 141,
+      "manufacturer": "GS Music",
+      "name": "e7"
+    },
+    "Gotharman/Spazedrum Black": {
+      "active": true,
+      "aliases": [],
+      "id": 142,
+      "manufacturer": "Gotharman",
+      "name": "Spazedrum Black"
+    },
+    "Groove Synthesis/3rd Wave 24K": {
+      "active": true,
+      "aliases": [],
+      "id": 143,
+      "manufacturer": "Groove Synthesis",
+      "name": "3rd Wave 24K"
+    },
+    "Groove Synthesis/3rd Wave 24M": {
+      "active": true,
+      "aliases": [],
+      "id": 144,
+      "manufacturer": "Groove Synthesis",
+      "name": "3rd Wave 24M"
+    },
+    "Groove Synthesis/3rd Wave 8M": {
+      "active": true,
+      "aliases": [],
+      "id": 145,
+      "manufacturer": "Groove Synthesis",
+      "name": "3rd Wave 8M"
+    },
+    "Grp Synthesizer/Vintage Genesi": {
+      "active": true,
+      "aliases": [],
+      "id": 146,
+      "manufacturer": "Grp Synthesizer",
+      "name": "Vintage Genesi"
+    },
+    "Haken Audio/Slim Continuum": {
+      "active": true,
+      "aliases": [],
+      "id": 147,
+      "manufacturer": "Haken Audio",
+      "name": "Slim Continuum"
+    },
+    "HeadRush/Gigboard": {
+      "active": true,
+      "aliases": [],
+      "id": 148,
+      "manufacturer": "HeadRush",
+      "name": "Gigboard"
+    },
+    "HeadRush/MX5": {
+      "active": true,
+      "aliases": [],
+      "id": 149,
+      "manufacturer": "HeadRush",
+      "name": "MX5"
+    },
+    "HeadRush/Pedalboard": {
+      "active": true,
+      "aliases": [],
+      "id": 150,
+      "manufacturer": "HeadRush",
+      "name": "Pedalboard"
+    },
+    "HeadRush/Prime": {
+      "active": true,
+      "aliases": [],
+      "id": 151,
+      "manufacturer": "HeadRush",
+      "name": "Prime"
+    },
+    "Hologram/Chroma Console": {
+      "active": true,
+      "aliases": [],
+      "id": 152,
+      "manufacturer": "Hologram",
+      "name": "Chroma Console"
+    },
+    "Hologram/Microcosm": {
+      "active": true,
+      "aliases": [],
+      "id": 153,
+      "manufacturer": "Hologram",
+      "name": "Microcosm"
+    },
+    "IK Multimedia/ToneX One+": {
+      "active": true,
+      "aliases": [],
+      "id": 154,
+      "manufacturer": "IK Multimedia",
+      "name": "ToneX One+"
+    },
+    "IK Multimedia/ToneX Pedal": {
+      "active": true,
+      "aliases": [],
+      "id": 155,
+      "manufacturer": "IK Multimedia",
+      "name": "ToneX Pedal"
+    },
+    "IK Multimedia/UNO Drum": {
+      "active": true,
+      "aliases": [],
+      "id": 156,
+      "manufacturer": "IK Multimedia",
+      "name": "UNO Drum"
+    },
+    "IK Multimedia/UNO Synth": {
+      "active": true,
+      "aliases": [],
+      "id": 158,
+      "manufacturer": "IK Multimedia",
+      "name": "UNO Synth"
+    },
+    "IK Multimedia/UNO Synth PRO X": {
+      "active": true,
+      "aliases": [],
+      "id": 157,
+      "manufacturer": "IK Multimedia",
+      "name": "UNO Synth PRO X"
+    },
+    "Instruō/Seashell": {
+      "active": true,
+      "aliases": [],
+      "id": 159,
+      "manufacturer": "Instruō",
+      "name": "Seashell"
+    },
+    "Intellijel/uMidi": {
+      "active": true,
+      "aliases": [],
+      "id": 160,
+      "manufacturer": "Intellijel",
+      "name": "uMidi"
+    },
+    "Jomox/Airbase 99": {
+      "active": true,
+      "aliases": [],
+      "id": 161,
+      "manufacturer": "Jomox",
+      "name": "Airbase 99"
+    },
+    "Jomox/Alpha Base": {
+      "active": true,
+      "aliases": [],
+      "id": 162,
+      "manufacturer": "Jomox",
+      "name": "Alpha Base"
+    },
+    "Jomox/MBase 11": {
+      "active": true,
+      "aliases": [],
+      "id": 163,
+      "manufacturer": "Jomox",
+      "name": "MBase 11"
+    },
+    "KORG/ARP 2600 M": {
+      "active": true,
+      "aliases": [],
+      "id": 164,
+      "manufacturer": "KORG",
+      "name": "ARP 2600 M"
+    },
+    "KORG/EMX-1": {
+      "active": true,
+      "aliases": [],
+      "id": 165,
+      "manufacturer": "KORG",
+      "name": "EMX-1"
+    },
+    "KORG/Electribe ER-1": {
+      "active": true,
+      "aliases": [],
+      "id": 166,
+      "manufacturer": "KORG",
+      "name": "Electribe ER-1"
+    },
+    "KORG/Electribe ES-1": {
+      "active": true,
+      "aliases": [],
+      "id": 167,
+      "manufacturer": "KORG",
+      "name": "Electribe ES-1"
+    },
+    "KORG/MS2000": {
+      "active": true,
+      "aliases": [],
+      "id": 168,
+      "manufacturer": "KORG",
+      "name": "MS2000"
+    },
+    "KORG/NTS-1": {
+      "active": true,
+      "aliases": [],
+      "id": 169,
+      "manufacturer": "KORG",
+      "name": "NTS-1"
+    },
+    "KORG/NTS-3 kaoss pad": {
+      "active": true,
+      "aliases": [],
+      "id": 170,
+      "manufacturer": "KORG",
+      "name": "NTS-3 kaoss pad"
+    },
+    "KORG/R3": {
+      "active": true,
+      "aliases": [],
+      "id": 171,
+      "manufacturer": "KORG",
+      "name": "R3"
+    },
+    "KORG/RADIAS": {
+      "active": true,
+      "aliases": [],
+      "id": 172,
+      "manufacturer": "KORG",
+      "name": "RADIAS"
+    },
+    "KORG/Wavestate": {
+      "active": true,
+      "aliases": [],
+      "id": 174,
+      "manufacturer": "KORG",
+      "name": "Wavestate"
+    },
+    "KORG/Wavestate SE": {
+      "active": true,
+      "aliases": [],
+      "id": 173,
+      "manufacturer": "KORG",
+      "name": "Wavestate SE"
+    },
+    "KORG/drumlogue": {
+      "active": true,
+      "aliases": [],
+      "id": 175,
+      "manufacturer": "KORG",
+      "name": "drumlogue"
+    },
+    "KORG/electribe 2 (EMX 2)": {
+      "active": true,
+      "aliases": [],
+      "id": 176,
+      "manufacturer": "KORG",
+      "name": "electribe 2 (EMX 2)"
+    },
+    "KORG/microKORG": {
+      "active": true,
+      "aliases": [],
+      "id": 177,
+      "manufacturer": "KORG",
+      "name": "microKORG"
+    },
+    "KORG/microKORG2": {
+      "active": true,
+      "aliases": [],
+      "id": 178,
+      "manufacturer": "KORG",
+      "name": "microKORG2"
+    },
+    "KORG/minilogue": {
+      "active": true,
+      "aliases": [],
+      "id": 180,
+      "manufacturer": "KORG",
+      "name": "minilogue"
+    },
+    "KORG/minilogue xd": {
+      "active": true,
+      "aliases": [],
+      "id": 179,
+      "manufacturer": "KORG",
+      "name": "minilogue xd"
+    },
+    "KORG/monologue": {
+      "active": true,
+      "aliases": [],
+      "id": 181,
+      "manufacturer": "KORG",
+      "name": "monologue"
+    },
+    "KORG/multi-poly": {
+      "active": true,
+      "aliases": [],
+      "id": 182,
+      "manufacturer": "KORG",
+      "name": "multi-poly"
+    },
+    "KORG/opsix": {
+      "active": true,
+      "aliases": [],
+      "id": 183,
+      "manufacturer": "KORG",
+      "name": "opsix"
+    },
+    "KORG/phase8": {
+      "active": true,
+      "aliases": [],
+      "id": 184,
+      "manufacturer": "KORG",
+      "name": "phase8"
+    },
+    "KORG/prologue": {
+      "active": true,
+      "aliases": [],
+      "id": 185,
+      "manufacturer": "KORG",
+      "name": "prologue"
+    },
+    "KORG/volca bass": {
+      "active": true,
+      "aliases": [],
+      "id": 186,
+      "manufacturer": "KORG",
+      "name": "volca bass"
+    },
+    "KORG/volca beats": {
+      "active": true,
+      "aliases": [],
+      "id": 187,
+      "manufacturer": "KORG",
+      "name": "volca beats"
+    },
+    "KORG/volca drum": {
+      "active": true,
+      "aliases": [],
+      "id": 188,
+      "manufacturer": "KORG",
+      "name": "volca drum"
+    },
+    "KORG/volca fm": {
+      "active": true,
+      "aliases": [],
+      "id": 189,
+      "manufacturer": "KORG",
+      "name": "volca fm"
+    },
+    "KORG/volca keys": {
+      "active": true,
+      "aliases": [],
+      "id": 190,
+      "manufacturer": "KORG",
+      "name": "volca keys"
+    },
+    "KORG/volca kick": {
+      "active": true,
+      "aliases": [],
+      "id": 191,
+      "manufacturer": "KORG",
+      "name": "volca kick"
+    },
+    "KORG/volca nubass": {
+      "active": true,
+      "aliases": [],
+      "id": 192,
+      "manufacturer": "KORG",
+      "name": "volca nubass"
+    },
+    "KORG/volca sample": {
+      "active": true,
+      "aliases": [],
+      "id": 193,
+      "manufacturer": "KORG",
+      "name": "volca sample"
+    },
+    "Kawai/K5000S & K5000R": {
+      "active": true,
+      "aliases": [],
+      "id": 194,
+      "manufacturer": "Kawai",
+      "name": "K5000S & K5000R"
+    },
+    "Kemper/PROFILER Player": {
+      "active": true,
+      "aliases": [],
+      "id": 195,
+      "manufacturer": "Kemper",
+      "name": "PROFILER Player"
+    },
+    "Kemper/PROFILER PowerHead": {
+      "active": true,
+      "aliases": [],
+      "id": 196,
+      "manufacturer": "Kemper",
+      "name": "PROFILER PowerHead"
+    },
+    "Kemper/PROFILER PowerRack": {
+      "active": true,
+      "aliases": [],
+      "id": 197,
+      "manufacturer": "Kemper",
+      "name": "PROFILER PowerRack"
+    },
+    "Kemper/PROFILER Stage": {
+      "active": true,
+      "aliases": [],
+      "id": 198,
+      "manufacturer": "Kemper",
+      "name": "PROFILER Stage"
+    },
+    "Kinotone/Ghosts": {
+      "active": true,
+      "aliases": [],
+      "id": 199,
+      "manufacturer": "Kinotone",
+      "name": "Ghosts"
+    },
+    "Kinotone/Ribbons": {
+      "active": true,
+      "aliases": [],
+      "id": 200,
+      "manufacturer": "Kinotone",
+      "name": "Ribbons"
+    },
+    "Kinotone/Sparks": {
+      "active": true,
+      "aliases": [],
+      "id": 201,
+      "manufacturer": "Kinotone",
+      "name": "Sparks"
+    },
+    "Kiviak Instruments/WoFi": {
+      "active": true,
+      "aliases": [],
+      "id": 202,
+      "manufacturer": "Kiviak Instruments",
+      "name": "WoFi"
+    },
+    "Knobula/Pianophonic": {
+      "active": true,
+      "aliases": [],
+      "id": 203,
+      "manufacturer": "Knobula",
+      "name": "Pianophonic"
+    },
+    "Kodamo/EssenceFM": {
+      "active": true,
+      "aliases": [],
+      "id": 204,
+      "manufacturer": "Kodamo",
+      "name": "EssenceFM"
+    },
+    "Kodamo/MASK1EX": {
+      "active": true,
+      "aliases": [],
+      "id": 205,
+      "manufacturer": "Kodamo",
+      "name": "MASK1EX"
+    },
+    "Kurzweil/K2000 V3": {
+      "active": true,
+      "aliases": [],
+      "id": 206,
+      "manufacturer": "Kurzweil",
+      "name": "K2000 V3"
+    },
+    "Kurzweil/K2661": {
+      "active": true,
+      "aliases": [],
+      "id": 207,
+      "manufacturer": "Kurzweil",
+      "name": "K2661"
+    },
+    "L.L. Electronics/RozzBox One V2": {
+      "active": true,
+      "aliases": [],
+      "id": 208,
+      "manufacturer": "L.L. Electronics",
+      "name": "RozzBox One V2"
+    },
+    "LPZW/Tram8": {
+      "active": true,
+      "aliases": [],
+      "id": 209,
+      "manufacturer": "LPZW",
+      "name": "Tram8"
+    },
+    "LZX Industries/Videomancer": {
+      "active": true,
+      "aliases": [],
+      "id": 210,
+      "manufacturer": "LZX Industries",
+      "name": "Videomancer"
+    },
+    "Lambda Synthetics/PolyPulse": {
+      "active": true,
+      "aliases": [],
+      "id": 211,
+      "manufacturer": "Lambda Synthetics",
+      "name": "PolyPulse"
+    },
+    "Line 6/DL4 MkII Delay Modeler": {
+      "active": true,
+      "aliases": [],
+      "id": 212,
+      "manufacturer": "Line 6",
+      "name": "DL4 MkII Delay Modeler"
+    },
+    "Line 6/HX Effects": {
+      "active": true,
+      "aliases": [],
+      "id": 213,
+      "manufacturer": "Line 6",
+      "name": "HX Effects"
+    },
+    "Line 6/HX Stomp": {
+      "active": true,
+      "aliases": [],
+      "id": 215,
+      "manufacturer": "Line 6",
+      "name": "HX Stomp"
+    },
+    "Line 6/HX Stomp XL": {
+      "active": true,
+      "aliases": [],
+      "id": 214,
+      "manufacturer": "Line 6",
+      "name": "HX Stomp XL"
+    },
+    "Line 6/Helix Floor": {
+      "active": true,
+      "aliases": [],
+      "id": 216,
+      "manufacturer": "Line 6",
+      "name": "Helix Floor"
+    },
+    "Line 6/Helix LT": {
+      "active": true,
+      "aliases": [],
+      "id": 217,
+      "manufacturer": "Line 6",
+      "name": "Helix LT"
+    },
+    "Line 6/Helix Rack": {
+      "active": true,
+      "aliases": [],
+      "id": 218,
+      "manufacturer": "Line 6",
+      "name": "Helix Rack"
+    },
+    "Line 6/M5 Stompbox Modeler": {
+      "active": true,
+      "aliases": [],
+      "id": 219,
+      "manufacturer": "Line 6",
+      "name": "M5 Stompbox Modeler"
+    },
+    "Line 6/POD Go": {
+      "active": true,
+      "aliases": [],
+      "id": 220,
+      "manufacturer": "Line 6",
+      "name": "POD Go"
+    },
+    "M-VAVE/FM1 Community": {
+      "active": true,
+      "aliases": [],
+      "id": 221,
+      "manufacturer": "M-VAVE",
+      "name": "FM1 Community"
+    },
+    "MFB/Synth II": {
+      "active": true,
+      "aliases": [],
+      "id": 222,
+      "manufacturer": "MFB",
+      "name": "Synth II"
+    },
+    "MFB/Tanzbar 1": {
+      "active": true,
+      "aliases": [],
+      "id": 223,
+      "manufacturer": "MFB",
+      "name": "Tanzbar 1"
+    },
+    "MFB/Tanzbar 2": {
+      "active": true,
+      "aliases": [],
+      "id": 224,
+      "manufacturer": "MFB",
+      "name": "Tanzbar 2"
+    },
+    "MFB/Tanzbar Lite": {
+      "active": true,
+      "aliases": [],
+      "id": 225,
+      "manufacturer": "MFB",
+      "name": "Tanzbar Lite"
+    },
+    "MFB/Tanzmaus": {
+      "active": true,
+      "aliases": [],
+      "id": 226,
+      "manufacturer": "MFB",
+      "name": "Tanzmaus"
+    },
+    "MIDI Association/Generic MIDI 1.0": {
+      "active": true,
+      "aliases": [],
+      "id": 227,
+      "manufacturer": "MIDI Association",
+      "name": "Generic MIDI 1.0"
+    },
+    "Majella Audio/IMPLEXUS": {
+      "active": true,
+      "aliases": [],
+      "id": 228,
+      "manufacturer": "Majella Audio",
+      "name": "IMPLEXUS"
+    },
+    "Make Noise/0-Coast": {
+      "active": true,
+      "aliases": [],
+      "id": 229,
+      "manufacturer": "Make Noise",
+      "name": "0-Coast"
+    },
+    "Manikin Electronic/Memotron m2d": {
+      "active": true,
+      "aliases": [],
+      "id": 230,
+      "manufacturer": "Manikin Electronic",
+      "name": "Memotron m2d"
+    },
+    "Manikin Electronic/Memotron m2k": {
+      "active": true,
+      "aliases": [],
+      "id": 231,
+      "manufacturer": "Manikin Electronic",
+      "name": "Memotron m2k"
+    },
+    "Manikin Electronic/Schrittmacher": {
+      "active": true,
+      "aliases": [],
+      "id": 232,
+      "manufacturer": "Manikin Electronic",
+      "name": "Schrittmacher"
+    },
+    "MeeBlip/geode": {
+      "active": true,
+      "aliases": [],
+      "id": 233,
+      "manufacturer": "MeeBlip",
+      "name": "geode"
+    },
+    "MeeBlip/triode": {
+      "active": true,
+      "aliases": [],
+      "id": 234,
+      "manufacturer": "MeeBlip",
+      "name": "triode"
+    },
+    "Melbourne Instruments/Delia": {
+      "active": true,
+      "aliases": [],
+      "id": 235,
+      "manufacturer": "Melbourne Instruments",
+      "name": "Delia"
+    },
+    "Melbourne Instruments/Nina": {
+      "active": true,
+      "aliases": [],
+      "id": 236,
+      "manufacturer": "Melbourne Instruments",
+      "name": "Nina"
+    },
+    "Meris/LVX": {
+      "active": true,
+      "aliases": [],
+      "id": 237,
+      "manufacturer": "Meris",
+      "name": "LVX"
+    },
+    "Meris/Mercury7": {
+      "active": true,
+      "aliases": [],
+      "id": 238,
+      "manufacturer": "Meris",
+      "name": "Mercury7"
+    },
+    "Meris/Ottobit Jr": {
+      "active": true,
+      "aliases": [],
+      "id": 239,
+      "manufacturer": "Meris",
+      "name": "Ottobit Jr"
+    },
+    "Meris/Polymoon": {
+      "active": true,
+      "aliases": [],
+      "id": 240,
+      "manufacturer": "Meris",
+      "name": "Polymoon"
+    },
+    "Modal Electronics/ARGON8M": {
+      "active": true,
+      "aliases": [],
+      "id": 241,
+      "manufacturer": "Modal Electronics",
+      "name": "ARGON8M"
+    },
+    "Modal Electronics/CARBON8": {
+      "active": true,
+      "aliases": [],
+      "id": 242,
+      "manufacturer": "Modal Electronics",
+      "name": "CARBON8"
+    },
+    "Modal Electronics/COBALT5S": {
+      "active": true,
+      "aliases": [],
+      "id": 243,
+      "manufacturer": "Modal Electronics",
+      "name": "COBALT5S"
+    },
+    "Modal Electronics/COBALT8": {
+      "active": true,
+      "aliases": [],
+      "id": 244,
+      "manufacturer": "Modal Electronics",
+      "name": "COBALT8"
+    },
+    "Modal Electronics/CRAFTsynth 2.0": {
+      "active": true,
+      "aliases": [],
+      "id": 245,
+      "manufacturer": "Modal Electronics",
+      "name": "CRAFTsynth 2.0"
+    },
+    "Modal Electronics/Craft": {
+      "active": true,
+      "aliases": [],
+      "id": 246,
+      "manufacturer": "Modal Electronics",
+      "name": "Craft"
+    },
+    "Modal Electronics/Skulpt": {
+      "active": true,
+      "aliases": [],
+      "id": 247,
+      "manufacturer": "Modal Electronics",
+      "name": "Skulpt"
+    },
+    "Modbap/Trinity": {
+      "active": true,
+      "aliases": [],
+      "id": 248,
+      "manufacturer": "Modbap",
+      "name": "Trinity"
+    },
+    "Modor/NF-1": {
+      "active": true,
+      "aliases": [],
+      "id": 249,
+      "manufacturer": "Modor",
+      "name": "NF-1"
+    },
+    "Mooer/GE300": {
+      "active": true,
+      "aliases": [],
+      "id": 251,
+      "manufacturer": "Mooer",
+      "name": "GE300"
+    },
+    "Mooer/GE300 Lite": {
+      "active": true,
+      "aliases": [],
+      "id": 250,
+      "manufacturer": "Mooer",
+      "name": "GE300 Lite"
+    },
+    "Moog/Grandmother": {
+      "active": true,
+      "aliases": [],
+      "id": 252,
+      "manufacturer": "Moog",
+      "name": "Grandmother"
+    },
+    "Moog/Matriarch": {
+      "active": true,
+      "aliases": [],
+      "id": 253,
+      "manufacturer": "Moog",
+      "name": "Matriarch"
+    },
+    "Moog/Messenger": {
+      "active": true,
+      "aliases": [],
+      "id": 254,
+      "manufacturer": "Moog",
+      "name": "Messenger"
+    },
+    "Moog/Minimoog Model D": {
+      "active": true,
+      "aliases": [],
+      "id": 255,
+      "manufacturer": "Moog",
+      "name": "Minimoog Model D"
+    },
+    "Moog/Minitaur": {
+      "active": true,
+      "aliases": [],
+      "id": 256,
+      "manufacturer": "Moog",
+      "name": "Minitaur"
+    },
+    "Moog/Mother-32": {
+      "active": true,
+      "aliases": [],
+      "id": 257,
+      "manufacturer": "Moog",
+      "name": "Mother-32"
+    },
+    "Moog/Muse": {
+      "active": true,
+      "aliases": [],
+      "id": 258,
+      "manufacturer": "Moog",
+      "name": "Muse"
+    },
+    "Moog/One": {
+      "active": true,
+      "aliases": [],
+      "id": 259,
+      "manufacturer": "Moog",
+      "name": "One"
+    },
+    "Moog/Sirin": {
+      "active": true,
+      "aliases": [],
+      "id": 260,
+      "manufacturer": "Moog",
+      "name": "Sirin"
+    },
+    "Moog/Sub Phatty": {
+      "active": true,
+      "aliases": [],
+      "id": 261,
+      "manufacturer": "Moog",
+      "name": "Sub Phatty"
+    },
+    "Moog/Subharmonicon": {
+      "active": true,
+      "aliases": [],
+      "id": 262,
+      "manufacturer": "Moog",
+      "name": "Subharmonicon"
+    },
+    "Moog/Subsequent 25": {
+      "active": true,
+      "aliases": [],
+      "id": 263,
+      "manufacturer": "Moog",
+      "name": "Subsequent 25"
+    },
+    "Moog/Subsequent 37": {
+      "active": true,
+      "aliases": [],
+      "id": 264,
+      "manufacturer": "Moog",
+      "name": "Subsequent 37"
+    },
+    "Moog/Voyager": {
+      "active": true,
+      "aliases": [],
+      "id": 265,
+      "manufacturer": "Moog",
+      "name": "Voyager"
+    },
+    "Morphor/ECHON 6": {
+      "active": true,
+      "aliases": [],
+      "id": 266,
+      "manufacturer": "Morphor",
+      "name": "ECHON 6"
+    },
+    "Mutable Instruments/Ambika": {
+      "active": true,
+      "aliases": [],
+      "id": 267,
+      "manufacturer": "Mutable Instruments",
+      "name": "Ambika"
+    },
+    "Mutable Instruments/Shruthi": {
+      "active": true,
+      "aliases": [],
+      "id": 268,
+      "manufacturer": "Mutable Instruments",
+      "name": "Shruthi"
+    },
+    "Mutable Instruments/Yarns": {
+      "active": true,
+      "aliases": [],
+      "id": 270,
+      "manufacturer": "Mutable Instruments",
+      "name": "Yarns"
+    },
+    "Mutable Instruments/Yarns Loom": {
+      "active": true,
+      "aliases": [],
+      "id": 269,
+      "manufacturer": "Mutable Instruments",
+      "name": "Yarns Loom"
+    },
+    "NUX/Tape Echo NDD-7": {
+      "active": true,
+      "aliases": [],
+      "id": 271,
+      "manufacturer": "NUX",
+      "name": "Tape Echo NDD-7"
+    },
+    "Neural DSP/Nano Cortex": {
+      "active": true,
+      "aliases": [],
+      "id": 272,
+      "manufacturer": "Neural DSP",
+      "name": "Nano Cortex"
+    },
+    "Neural DSP/Quad Cortex": {
+      "active": true,
+      "aliases": [],
+      "id": 273,
+      "manufacturer": "Neural DSP",
+      "name": "Quad Cortex"
+    },
+    "Neuzeit Instruments/Drop": {
+      "active": true,
+      "aliases": [],
+      "id": 274,
+      "manufacturer": "Neuzeit Instruments",
+      "name": "Drop"
+    },
+    "Neuzeit Instruments/Warp": {
+      "active": true,
+      "aliases": [],
+      "id": 275,
+      "manufacturer": "Neuzeit Instruments",
+      "name": "Warp"
+    },
+    "Nonlinear Labs/C15": {
+      "active": true,
+      "aliases": [],
+      "id": 276,
+      "manufacturer": "Nonlinear Labs",
+      "name": "C15"
+    },
+    "Norand/Mono": {
+      "active": true,
+      "aliases": [],
+      "id": 277,
+      "manufacturer": "Norand",
+      "name": "Mono"
+    },
+    "Nord/Drum 2": {
+      "active": true,
+      "aliases": [],
+      "id": 278,
+      "manufacturer": "Nord",
+      "name": "Drum 2"
+    },
+    "Nord/Drum 3P": {
+      "active": true,
+      "aliases": [],
+      "id": 279,
+      "manufacturer": "Nord",
+      "name": "Drum 3P"
+    },
+    "Nord/Lead (Rack)": {
+      "active": true,
+      "aliases": [],
+      "id": 281,
+      "manufacturer": "Nord",
+      "name": "Lead (Rack)"
+    },
+    "Nord/Lead (Rack) 2X": {
+      "active": true,
+      "aliases": [],
+      "id": 280,
+      "manufacturer": "Nord",
+      "name": "Lead (Rack) 2X"
+    },
+    "Nord/Lead 4 (Lead 4R)": {
+      "active": true,
+      "aliases": [],
+      "id": 282,
+      "manufacturer": "Nord",
+      "name": "Lead 4 (Lead 4R)"
+    },
+    "Nord/Lead A1": {
+      "active": true,
+      "aliases": [],
+      "id": 283,
+      "manufacturer": "Nord",
+      "name": "Lead A1"
+    },
+    "Nord/Piano 5": {
+      "active": true,
+      "aliases": [],
+      "id": 284,
+      "manufacturer": "Nord",
+      "name": "Piano 5"
+    },
+    "Nord/Stage 3": {
+      "active": true,
+      "aliases": [],
+      "id": 285,
+      "manufacturer": "Nord",
+      "name": "Stage 3"
+    },
+    "Nord/Stage 4": {
+      "active": true,
+      "aliases": [],
+      "id": 286,
+      "manufacturer": "Nord",
+      "name": "Stage 4"
+    },
+    "Nord/Wave 2": {
+      "active": true,
+      "aliases": [],
+      "id": 287,
+      "manufacturer": "Nord",
+      "name": "Wave 2"
+    },
+    "Novation/Bass Station II": {
+      "active": true,
+      "aliases": [],
+      "id": 288,
+      "manufacturer": "Novation",
+      "name": "Bass Station II"
+    },
+    "Novation/Bass Station Rack": {
+      "active": true,
+      "aliases": [],
+      "id": 289,
+      "manufacturer": "Novation",
+      "name": "Bass Station Rack"
+    },
+    "Novation/Circuit": {
+      "active": true,
+      "aliases": [],
+      "id": 292,
+      "manufacturer": "Novation",
+      "name": "Circuit"
+    },
+    "Novation/Circuit Mono Station": {
+      "active": true,
+      "aliases": [],
+      "id": 290,
+      "manufacturer": "Novation",
+      "name": "Circuit Mono Station"
+    },
+    "Novation/Circuit Rhythm": {
+      "active": true,
+      "aliases": [],
+      "id": 291,
+      "manufacturer": "Novation",
+      "name": "Circuit Rhythm"
+    },
+    "Novation/MiniNova": {
+      "active": true,
+      "aliases": [],
+      "id": 293,
+      "manufacturer": "Novation",
+      "name": "MiniNova"
+    },
+    "Novation/Nova": {
+      "active": true,
+      "aliases": [],
+      "id": 294,
+      "manufacturer": "Novation",
+      "name": "Nova"
+    },
+    "Novation/Summit and Peak": {
+      "active": true,
+      "aliases": [],
+      "id": 295,
+      "manufacturer": "Novation",
+      "name": "Summit and Peak"
+    },
+    "OTO Machines FX/BAM": {
+      "active": true,
+      "aliases": [],
+      "id": 296,
+      "manufacturer": "OTO Machines FX",
+      "name": "BAM"
+    },
+    "OTO Machines FX/BIM": {
+      "active": true,
+      "aliases": [],
+      "id": 297,
+      "manufacturer": "OTO Machines FX",
+      "name": "BIM"
+    },
+    "OTO Machines FX/BISCUIT": {
+      "active": true,
+      "aliases": [],
+      "id": 298,
+      "manufacturer": "OTO Machines FX",
+      "name": "BISCUIT"
+    },
+    "OTO Machines FX/BOUM": {
+      "active": true,
+      "aliases": [],
+      "id": 299,
+      "manufacturer": "OTO Machines FX",
+      "name": "BOUM"
+    },
+    "OXI/Coral": {
+      "active": true,
+      "aliases": [],
+      "id": 300,
+      "manufacturer": "OXI",
+      "name": "Coral"
+    },
+    "Oberheim/OB-6": {
+      "active": true,
+      "aliases": [],
+      "id": 301,
+      "manufacturer": "Oberheim",
+      "name": "OB-6"
+    },
+    "Oberheim/OB-X8": {
+      "active": true,
+      "aliases": [],
+      "id": 302,
+      "manufacturer": "Oberheim",
+      "name": "OB-X8"
+    },
+    "Oberheim/TEO-5": {
+      "active": true,
+      "aliases": [],
+      "id": 303,
+      "manufacturer": "Oberheim",
+      "name": "TEO-5"
+    },
+    "PWM/Mantis": {
+      "active": true,
+      "aliases": [],
+      "id": 304,
+      "manufacturer": "PWM",
+      "name": "Mantis"
+    },
+    "Pioneer DJ/Toraiz AS-1": {
+      "active": true,
+      "aliases": [],
+      "id": 305,
+      "manufacturer": "Pioneer DJ",
+      "name": "Toraiz AS-1"
+    },
+    "Pioneer DJ/Toraiz SP-16": {
+      "active": true,
+      "aliases": [],
+      "id": 306,
+      "manufacturer": "Pioneer DJ",
+      "name": "Toraiz SP-16"
+    },
+    "Plinky/Plinky": {
+      "active": true,
+      "aliases": [],
+      "id": 308,
+      "manufacturer": "Plinky",
+      "name": "Plinky"
+    },
+    "Plinky/Plinky 12": {
+      "active": true,
+      "aliases": [],
+      "id": 307,
+      "manufacturer": "Plinky",
+      "name": "Plinky 12"
+    },
+    "Polyend/Step": {
+      "active": true,
+      "aliases": [],
+      "id": 309,
+      "manufacturer": "Polyend",
+      "name": "Step"
+    },
+    "Polyend/Synth": {
+      "active": true,
+      "aliases": [],
+      "id": 310,
+      "manufacturer": "Polyend",
+      "name": "Synth"
+    },
+    "Polyend/Tracker": {
+      "active": true,
+      "aliases": [],
+      "id": 312,
+      "manufacturer": "Polyend",
+      "name": "Tracker"
+    },
+    "Polyend/Tracker Mini": {
+      "active": true,
+      "aliases": [],
+      "id": 311,
+      "manufacturer": "Polyend",
+      "name": "Tracker Mini"
+    },
+    "PreenFM/PreenFM2 (PreenFM3)": {
+      "active": true,
+      "aliases": [],
+      "id": 313,
+      "manufacturer": "PreenFM",
+      "name": "PreenFM2 (PreenFM3)"
+    },
+    "RED Sound/eleVAta": {
+      "active": true,
+      "aliases": [],
+      "id": 314,
+      "manufacturer": "RED Sound",
+      "name": "eleVAta"
+    },
+    "Red Panda/Particle": {
+      "active": true,
+      "aliases": [],
+      "id": 315,
+      "manufacturer": "Red Panda",
+      "name": "Particle"
+    },
+    "Red Panda/Raster": {
+      "active": true,
+      "aliases": [],
+      "id": 316,
+      "manufacturer": "Red Panda",
+      "name": "Raster"
+    },
+    "Reliq Instruments/Reliq": {
+      "active": true,
+      "aliases": [],
+      "id": 317,
+      "manufacturer": "Reliq Instruments",
+      "name": "Reliq"
+    },
+    "Roland/D-05": {
+      "active": true,
+      "aliases": [],
+      "id": 318,
+      "manufacturer": "Roland",
+      "name": "D-05"
+    },
+    "Roland/GAIA SH-01": {
+      "active": true,
+      "aliases": [],
+      "id": 319,
+      "manufacturer": "Roland",
+      "name": "GAIA SH-01"
+    },
+    "Roland/JD-08": {
+      "active": true,
+      "aliases": [],
+      "id": 320,
+      "manufacturer": "Roland",
+      "name": "JD-08"
+    },
+    "Roland/JD-XA": {
+      "active": true,
+      "aliases": [],
+      "id": 321,
+      "manufacturer": "Roland",
+      "name": "JD-XA"
+    },
+    "Roland/JD-Xi": {
+      "active": true,
+      "aliases": [],
+      "id": 322,
+      "manufacturer": "Roland",
+      "name": "JD-Xi"
+    },
+    "Roland/JP-08": {
+      "active": true,
+      "aliases": [],
+      "id": 323,
+      "manufacturer": "Roland",
+      "name": "JP-08"
+    },
+    "Roland/JU-06": {
+      "active": true,
+      "aliases": [],
+      "id": 324,
+      "manufacturer": "Roland",
+      "name": "JU-06"
+    },
+    "Roland/JU-06A": {
+      "active": true,
+      "aliases": [],
+      "id": 325,
+      "manufacturer": "Roland",
+      "name": "JU-06A"
+    },
+    "Roland/JV-1010": {
+      "active": true,
+      "aliases": [],
+      "id": 326,
+      "manufacturer": "Roland",
+      "name": "JV-1010"
+    },
+    "Roland/JX-03": {
+      "active": true,
+      "aliases": [],
+      "id": 327,
+      "manufacturer": "Roland",
+      "name": "JX-03"
+    },
+    "Roland/JX-08": {
+      "active": true,
+      "aliases": [],
+      "id": 328,
+      "manufacturer": "Roland",
+      "name": "JX-08"
+    },
+    "Roland/Jupiter-6 Tauntek Upgrade": {
+      "active": true,
+      "aliases": [],
+      "id": 329,
+      "manufacturer": "Roland",
+      "name": "Jupiter-6 Tauntek Upgrade"
+    },
+    "Roland/Jupiter-X (Jupiter-Xm)": {
+      "active": true,
+      "aliases": [],
+      "id": 330,
+      "manufacturer": "Roland",
+      "name": "Jupiter-X (Jupiter-Xm)"
+    },
+    "Roland/MC-101": {
+      "active": true,
+      "aliases": [],
+      "id": 331,
+      "manufacturer": "Roland",
+      "name": "MC-101"
+    },
+    "Roland/MC-2oh2": {
+      "active": true,
+      "aliases": [],
+      "id": 332,
+      "manufacturer": "Roland",
+      "name": "MC-2oh2"
+    },
+    "Roland/MC-707 GROOVEBOX": {
+      "active": true,
+      "aliases": [],
+      "id": 333,
+      "manufacturer": "Roland",
+      "name": "MC-707 GROOVEBOX"
+    },
+    "Roland/MX-1": {
+      "active": true,
+      "aliases": [],
+      "id": 334,
+      "manufacturer": "Roland",
+      "name": "MX-1"
+    },
+    "Roland/P-6": {
+      "active": true,
+      "aliases": [],
+      "id": 335,
+      "manufacturer": "Roland",
+      "name": "P-6"
+    },
+    "Roland/S-1": {
+      "active": true,
+      "aliases": [],
+      "id": 336,
+      "manufacturer": "Roland",
+      "name": "S-1"
+    },
+    "Roland/SE-02": {
+      "active": true,
+      "aliases": [],
+      "id": 337,
+      "manufacturer": "Roland",
+      "name": "SE-02"
+    },
+    "Roland/SH-01A": {
+      "active": true,
+      "aliases": [],
+      "id": 338,
+      "manufacturer": "Roland",
+      "name": "SH-01A"
+    },
+    "Roland/SH-4d": {
+      "active": true,
+      "aliases": [],
+      "id": 339,
+      "manufacturer": "Roland",
+      "name": "SH-4d"
+    },
+    "Roland/SP-404MKII": {
+      "active": true,
+      "aliases": [],
+      "id": 340,
+      "manufacturer": "Roland",
+      "name": "SP-404MKII"
+    },
+    "Roland/SPD-20 PRO": {
+      "active": true,
+      "aliases": [],
+      "id": 341,
+      "manufacturer": "Roland",
+      "name": "SPD-20 PRO"
+    },
+    "Roland/SPD-SX PRO": {
+      "active": true,
+      "aliases": [],
+      "id": 342,
+      "manufacturer": "Roland",
+      "name": "SPD-SX PRO"
+    },
+    "Roland/Sound Canvas SD-50": {
+      "active": true,
+      "aliases": [],
+      "id": 343,
+      "manufacturer": "Roland",
+      "name": "Sound Canvas SD-50"
+    },
+    "Roland/System-1 (System-1M)": {
+      "active": true,
+      "aliases": [],
+      "id": 344,
+      "manufacturer": "Roland",
+      "name": "System-1 (System-1M)"
+    },
+    "Roland/System-8": {
+      "active": true,
+      "aliases": [],
+      "id": 345,
+      "manufacturer": "Roland",
+      "name": "System-8"
+    },
+    "Roland/TB-03": {
+      "active": true,
+      "aliases": [],
+      "id": 346,
+      "manufacturer": "Roland",
+      "name": "TB-03"
+    },
+    "Roland/TB-3": {
+      "active": true,
+      "aliases": [],
+      "id": 347,
+      "manufacturer": "Roland",
+      "name": "TB-3"
+    },
+    "Roland/TR-06": {
+      "active": true,
+      "aliases": [],
+      "id": 348,
+      "manufacturer": "Roland",
+      "name": "TR-06"
+    },
+    "Roland/TR-08": {
+      "active": true,
+      "aliases": [],
+      "id": 349,
+      "manufacturer": "Roland",
+      "name": "TR-08"
+    },
+    "Roland/TR-09": {
+      "active": true,
+      "aliases": [],
+      "id": 350,
+      "manufacturer": "Roland",
+      "name": "TR-09"
+    },
+    "Roland/TR-1000": {
+      "active": true,
+      "aliases": [],
+      "id": 351,
+      "manufacturer": "Roland",
+      "name": "TR-1000"
+    },
+    "Roland/TR-6S": {
+      "active": true,
+      "aliases": [],
+      "id": 352,
+      "manufacturer": "Roland",
+      "name": "TR-6S"
+    },
+    "Roland/TR-8": {
+      "active": true,
+      "aliases": [],
+      "id": 353,
+      "manufacturer": "Roland",
+      "name": "TR-8"
+    },
+    "Roland/TR-8S": {
+      "active": true,
+      "aliases": [],
+      "id": 354,
+      "manufacturer": "Roland",
+      "name": "TR-8S"
+    },
+    "Roland/VERSELAB MV-1": {
+      "active": true,
+      "aliases": [],
+      "id": 355,
+      "manufacturer": "Roland",
+      "name": "VERSELAB MV-1"
+    },
+    "Roland/VP-03": {
+      "active": true,
+      "aliases": [],
+      "id": 356,
+      "manufacturer": "Roland",
+      "name": "VP-03"
+    },
+    "Roland/XV-5050": {
+      "active": true,
+      "aliases": [],
+      "id": 357,
+      "manufacturer": "Roland",
+      "name": "XV-5050"
+    },
+    "SIEL/DK 80": {
+      "active": true,
+      "aliases": [],
+      "id": 358,
+      "manufacturer": "SIEL",
+      "name": "DK 80"
+    },
+    "Schmidt/Synthesizer": {
+      "active": true,
+      "aliases": [],
+      "id": 359,
+      "manufacturer": "Schmidt",
+      "name": "Synthesizer"
+    },
+    "Sequential/Fourm": {
+      "active": true,
+      "aliases": [],
+      "id": 360,
+      "manufacturer": "Sequential",
+      "name": "Fourm"
+    },
+    "Sequential/Pro 3": {
+      "active": true,
+      "aliases": [],
+      "id": 361,
+      "manufacturer": "Sequential",
+      "name": "Pro 3"
+    },
+    "Sequential/Prophet Rev2": {
+      "active": true,
+      "aliases": [],
+      "id": 362,
+      "manufacturer": "Sequential",
+      "name": "Prophet Rev2"
+    },
+    "Sequential/Prophet VS": {
+      "active": true,
+      "aliases": [],
+      "id": 363,
+      "manufacturer": "Sequential",
+      "name": "Prophet VS"
+    },
+    "Sequential/Prophet-5 10": {
+      "active": true,
+      "aliases": [],
+      "id": 364,
+      "manufacturer": "Sequential",
+      "name": "Prophet-5 10"
+    },
+    "Sequential/Prophet-6": {
+      "active": true,
+      "aliases": [],
+      "id": 365,
+      "manufacturer": "Sequential",
+      "name": "Prophet-6"
+    },
+    "Sequential/Take 5": {
+      "active": true,
+      "aliases": [],
+      "id": 366,
+      "manufacturer": "Sequential",
+      "name": "Take 5"
+    },
+    "Sherman/Filterbank": {
+      "active": true,
+      "aliases": [],
+      "id": 367,
+      "manufacturer": "Sherman",
+      "name": "Filterbank"
+    },
+    "Sleepy Circuits/Hypno": {
+      "active": true,
+      "aliases": [],
+      "id": 369,
+      "manufacturer": "Sleepy Circuits",
+      "name": "Hypno"
+    },
+    "Sleepy Circuits/Hypno 2": {
+      "active": true,
+      "aliases": [],
+      "id": 368,
+      "manufacturer": "Sleepy Circuits",
+      "name": "Hypno 2"
+    },
+    "Sonicware/CyDrums": {
+      "active": true,
+      "aliases": [],
+      "id": 370,
+      "manufacturer": "Sonicware",
+      "name": "CyDrums"
+    },
+    "Sonicware/ELZ_1 play V2": {
+      "active": true,
+      "aliases": [],
+      "id": 371,
+      "manufacturer": "Sonicware",
+      "name": "ELZ_1 play V2"
+    },
+    "Sonicware/LIVEN 8bit warps": {
+      "active": true,
+      "aliases": [],
+      "id": 372,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN 8bit warps"
+    },
+    "Sonicware/LIVEN Ambient Ø": {
+      "active": true,
+      "aliases": [],
+      "id": 373,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN Ambient Ø"
+    },
+    "Sonicware/LIVEN BASS&BEAT": {
+      "active": true,
+      "aliases": [],
+      "id": 374,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN BASS&BEAT"
+    },
+    "Sonicware/LIVEN Evoke": {
+      "active": true,
+      "aliases": [],
+      "id": 375,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN Evoke"
+    },
+    "Sonicware/LIVEN Lofi-12": {
+      "active": true,
+      "aliases": [],
+      "id": 376,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN Lofi-12"
+    },
+    "Sonicware/LIVEN Lofi-6": {
+      "active": true,
+      "aliases": [],
+      "id": 377,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN Lofi-6"
+    },
+    "Sonicware/LIVEN MEGA SYNTHESIS": {
+      "active": true,
+      "aliases": [],
+      "id": 378,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN MEGA SYNTHESIS"
+    },
+    "Sonicware/LIVEN XFM": {
+      "active": true,
+      "aliases": [],
+      "id": 379,
+      "manufacturer": "Sonicware",
+      "name": "LIVEN XFM"
+    },
+    "Sonicware/Lofi-12 XT": {
+      "active": true,
+      "aliases": [],
+      "id": 380,
+      "manufacturer": "Sonicware",
+      "name": "Lofi-12 XT"
+    },
+    "Sonicware/SmplTrek": {
+      "active": true,
+      "aliases": [],
+      "id": 381,
+      "manufacturer": "Sonicware",
+      "name": "SmplTrek"
+    },
+    "Sonicware/deconstruct MINIMAL": {
+      "active": true,
+      "aliases": [],
+      "id": 382,
+      "manufacturer": "Sonicware",
+      "name": "deconstruct MINIMAL"
+    },
+    "Squarp instruments/Hermod": {
+      "active": true,
+      "aliases": [],
+      "id": 383,
+      "manufacturer": "Squarp instruments",
+      "name": "Hermod"
+    },
+    "Squarp instruments/Rample": {
+      "active": true,
+      "aliases": [],
+      "id": 384,
+      "manufacturer": "Squarp instruments",
+      "name": "Rample"
+    },
+    "Strymon/BigSky": {
+      "active": true,
+      "aliases": [],
+      "id": 385,
+      "manufacturer": "Strymon",
+      "name": "BigSky"
+    },
+    "Strymon/Deco": {
+      "active": true,
+      "aliases": [],
+      "id": 386,
+      "manufacturer": "Strymon",
+      "name": "Deco"
+    },
+    "Strymon/NightSky": {
+      "active": true,
+      "aliases": [],
+      "id": 387,
+      "manufacturer": "Strymon",
+      "name": "NightSky"
+    },
+    "Strymon/TimeLine": {
+      "active": true,
+      "aliases": [],
+      "id": 388,
+      "manufacturer": "Strymon",
+      "name": "TimeLine"
+    },
+    "Strymon/Volante": {
+      "active": true,
+      "aliases": [],
+      "id": 389,
+      "manufacturer": "Strymon",
+      "name": "Volante"
+    },
+    "Studio Electronics/ATC-1": {
+      "active": true,
+      "aliases": [],
+      "id": 390,
+      "manufacturer": "Studio Electronics",
+      "name": "ATC-1"
+    },
+    "Studio Electronics/SE-1X": {
+      "active": true,
+      "aliases": [],
+      "id": 391,
+      "manufacturer": "Studio Electronics",
+      "name": "SE-1X"
+    },
+    "Studiologic/Sledge": {
+      "active": true,
+      "aliases": [],
+      "id": 392,
+      "manufacturer": "Studiologic",
+      "name": "Sledge"
+    },
+    "Suonobuono/Polyvera": {
+      "active": true,
+      "aliases": [],
+      "id": 393,
+      "manufacturer": "Suonobuono",
+      "name": "Polyvera"
+    },
+    "Supercritical/Redshift 6": {
+      "active": true,
+      "aliases": [],
+      "id": 394,
+      "manufacturer": "Supercritical",
+      "name": "Redshift 6"
+    },
+    "Superlative/SB01 (Space Bee)": {
+      "active": true,
+      "aliases": [],
+      "id": 395,
+      "manufacturer": "Superlative",
+      "name": "SB01 (Space Bee)"
+    },
+    "Syntecno/TeeBee Mark 1": {
+      "active": true,
+      "aliases": [],
+      "id": 396,
+      "manufacturer": "Syntecno",
+      "name": "TeeBee Mark 1"
+    },
+    "Synthstrom/Deluge": {
+      "active": true,
+      "aliases": [],
+      "id": 397,
+      "manufacturer": "Synthstrom",
+      "name": "Deluge"
+    },
+    "TC Electronic/D-TWO": {
+      "active": true,
+      "aliases": [],
+      "id": 398,
+      "manufacturer": "TC Electronic",
+      "name": "D-TWO"
+    },
+    "TC Helicon/VoiceLive 3": {
+      "active": true,
+      "aliases": [],
+      "id": 399,
+      "manufacturer": "TC Helicon",
+      "name": "VoiceLive 3"
+    },
+    "TC Helicon/VoiceLive Touch 2": {
+      "active": true,
+      "aliases": [],
+      "id": 400,
+      "manufacturer": "TC Helicon",
+      "name": "VoiceLive Touch 2"
+    },
+    "Tasty Chips/GR-1": {
+      "active": true,
+      "aliases": [],
+      "id": 401,
+      "manufacturer": "Tasty Chips",
+      "name": "GR-1"
+    },
+    "Tasty Chips/GR-Mega": {
+      "active": true,
+      "aliases": [],
+      "id": 402,
+      "manufacturer": "Tasty Chips",
+      "name": "GR-Mega"
+    },
+    "Teenage Engineering/EP-133 K.O. II": {
+      "active": true,
+      "aliases": [],
+      "id": 403,
+      "manufacturer": "Teenage Engineering",
+      "name": "EP-133 K.O. II"
+    },
+    "Teenage Engineering/OP-1": {
+      "active": true,
+      "aliases": [],
+      "id": 405,
+      "manufacturer": "Teenage Engineering",
+      "name": "OP-1"
+    },
+    "Teenage Engineering/OP-1 field": {
+      "active": true,
+      "aliases": [],
+      "id": 404,
+      "manufacturer": "Teenage Engineering",
+      "name": "OP-1 field"
+    },
+    "Teenage Engineering/OP-XY": {
+      "active": true,
+      "aliases": [],
+      "id": 406,
+      "manufacturer": "Teenage Engineering",
+      "name": "OP-XY"
+    },
+    "Teenage Engineering/OP-Z": {
+      "active": true,
+      "aliases": [],
+      "id": 407,
+      "manufacturer": "Teenage Engineering",
+      "name": "OP-Z"
+    },
+    "Telepathic Instruments/Orchid": {
+      "active": true,
+      "aliases": [],
+      "id": 408,
+      "manufacturer": "Telepathic Instruments",
+      "name": "Orchid"
+    },
+    "Torso Electronics/S4": {
+      "active": true,
+      "aliases": [],
+      "id": 409,
+      "manufacturer": "Torso Electronics",
+      "name": "S4"
+    },
+    "Torso Electronics/T1": {
+      "active": true,
+      "aliases": [],
+      "id": 410,
+      "manufacturer": "Torso Electronics",
+      "name": "T1"
+    },
+    "Tubbutec/Juno-66": {
+      "active": true,
+      "aliases": [],
+      "id": 411,
+      "manufacturer": "Tubbutec",
+      "name": "Juno-66"
+    },
+    "Twisted Electrons/MEGAfm": {
+      "active": true,
+      "aliases": [],
+      "id": 412,
+      "manufacturer": "Twisted Electrons",
+      "name": "MEGAfm"
+    },
+    "Twisted Electrons/TWISTfm": {
+      "active": true,
+      "aliases": [],
+      "id": 413,
+      "manufacturer": "Twisted Electrons",
+      "name": "TWISTfm"
+    },
+    "Twisted Electrons/TherapSID": {
+      "active": true,
+      "aliases": [],
+      "id": 414,
+      "manufacturer": "Twisted Electrons",
+      "name": "TherapSID"
+    },
+    "UDO Audio/Super 6": {
+      "active": true,
+      "aliases": [],
+      "id": 415,
+      "manufacturer": "UDO Audio",
+      "name": "Super 6"
+    },
+    "UDO Audio/Super Gemini (Super 8)": {
+      "active": true,
+      "aliases": [],
+      "id": 416,
+      "manufacturer": "UDO Audio",
+      "name": "Super Gemini (Super 8)"
+    },
+    "Underscores/_recurBOY_": {
+      "active": true,
+      "aliases": [],
+      "id": 417,
+      "manufacturer": "Underscores",
+      "name": "_recurBOY_"
+    },
+    "Universal Audio/ANTI 1992": {
+      "active": true,
+      "aliases": [],
+      "id": 418,
+      "manufacturer": "Universal Audio",
+      "name": "ANTI 1992"
+    },
+    "Universal Audio/Dream '65": {
+      "active": true,
+      "aliases": [],
+      "id": 419,
+      "manufacturer": "Universal Audio",
+      "name": "Dream '65"
+    },
+    "Universal Audio/Ruby '63": {
+      "active": true,
+      "aliases": [],
+      "id": 420,
+      "manufacturer": "Universal Audio",
+      "name": "Ruby '63"
+    },
+    "Universal Audio/Woodrow '55": {
+      "active": true,
+      "aliases": [],
+      "id": 421,
+      "manufacturer": "Universal Audio",
+      "name": "Woodrow '55"
+    },
+    "VONGON/Polyphrase": {
+      "active": true,
+      "aliases": [],
+      "id": 422,
+      "manufacturer": "VONGON",
+      "name": "Polyphrase"
+    },
+    "VONGON/replay": {
+      "active": true,
+      "aliases": [],
+      "id": 423,
+      "manufacturer": "VONGON",
+      "name": "replay"
+    },
+    "Vermona/meloDICER": {
+      "active": true,
+      "aliases": [],
+      "id": 424,
+      "manufacturer": "Vermona",
+      "name": "meloDICER"
+    },
+    "Waldorf/Blofeld": {
+      "active": true,
+      "aliases": [],
+      "id": 425,
+      "manufacturer": "Waldorf",
+      "name": "Blofeld"
+    },
+    "Waldorf/Iridium": {
+      "active": true,
+      "aliases": [],
+      "id": 426,
+      "manufacturer": "Waldorf",
+      "name": "Iridium"
+    },
+    "Waldorf/M": {
+      "active": true,
+      "aliases": [],
+      "id": 427,
+      "manufacturer": "Waldorf",
+      "name": "M"
+    },
+    "Waldorf/Micro Q": {
+      "active": true,
+      "aliases": [],
+      "id": 428,
+      "manufacturer": "Waldorf",
+      "name": "Micro Q"
+    },
+    "Waldorf/Protein": {
+      "active": true,
+      "aliases": [],
+      "id": 429,
+      "manufacturer": "Waldorf",
+      "name": "Protein"
+    },
+    "Waldorf/Pulse 1": {
+      "active": true,
+      "aliases": [],
+      "id": 430,
+      "manufacturer": "Waldorf",
+      "name": "Pulse 1"
+    },
+    "Waldorf/Pulse 2": {
+      "active": true,
+      "aliases": [],
+      "id": 431,
+      "manufacturer": "Waldorf",
+      "name": "Pulse 2"
+    },
+    "Waldorf/Rocket": {
+      "active": true,
+      "aliases": [],
+      "id": 432,
+      "manufacturer": "Waldorf",
+      "name": "Rocket"
+    },
+    "Waldorf/Streichfett": {
+      "active": true,
+      "aliases": [],
+      "id": 433,
+      "manufacturer": "Waldorf",
+      "name": "Streichfett"
+    },
+    "Yamaha/AN1x": {
+      "active": true,
+      "aliases": [],
+      "id": 434,
+      "manufacturer": "Yamaha",
+      "name": "AN1x"
+    },
+    "Yamaha/NSX-1": {
+      "active": true,
+      "aliases": [],
+      "id": 435,
+      "manufacturer": "Yamaha",
+      "name": "NSX-1"
+    },
+    "Yamaha/SEQTRAK": {
+      "active": true,
+      "aliases": [],
+      "id": 436,
+      "manufacturer": "Yamaha",
+      "name": "SEQTRAK"
+    },
+    "Yamaha/reface CP": {
+      "active": true,
+      "aliases": [],
+      "id": 437,
+      "manufacturer": "Yamaha",
+      "name": "reface CP"
+    },
+    "Yamaha/reface CS": {
+      "active": true,
+      "aliases": [],
+      "id": 438,
+      "manufacturer": "Yamaha",
+      "name": "reface CS"
+    },
+    "Yamaha/reface DX": {
+      "active": true,
+      "aliases": [],
+      "id": 439,
+      "manufacturer": "Yamaha",
+      "name": "reface DX"
+    },
+    "Yamaha/reface YC": {
+      "active": true,
+      "aliases": [],
+      "id": 440,
+      "manufacturer": "Yamaha",
+      "name": "reface YC"
+    },
+    "Zoom/LiveTrak L6": {
+      "active": true,
+      "aliases": [],
+      "id": 441,
+      "manufacturer": "Zoom",
+      "name": "LiveTrak L6"
+    },
+    "Zoom/LiveTrak L6max": {
+      "active": true,
+      "aliases": [],
+      "id": 442,
+      "manufacturer": "Zoom",
+      "name": "LiveTrak L6max"
+    },
+    "discoDSP/Corona": {
+      "active": true,
+      "aliases": [],
+      "id": 443,
+      "manufacturer": "discoDSP",
+      "name": "Corona"
+    },
+    "discoDSP/Discovery": {
+      "active": true,
+      "aliases": [],
+      "id": 445,
+      "manufacturer": "discoDSP",
+      "name": "Discovery"
+    },
+    "discoDSP/Discovery Pro": {
+      "active": true,
+      "aliases": [],
+      "id": 444,
+      "manufacturer": "discoDSP",
+      "name": "Discovery Pro"
+    },
+    "discoDSP/OB-Xd 2": {
+      "active": true,
+      "aliases": [],
+      "id": 446,
+      "manufacturer": "discoDSP",
+      "name": "OB-Xd 2"
+    },
+    "discoDSP/OB-Xd 3": {
+      "active": true,
+      "aliases": [],
+      "id": 447,
+      "manufacturer": "discoDSP",
+      "name": "OB-Xd 3"
+    },
+    "uCApps.de/MIDIbox SID v2.0": {
+      "active": true,
+      "aliases": [],
+      "id": 448,
+      "manufacturer": "uCApps.de",
+      "name": "MIDIbox SID v2.0"
+    }
   },
   "version": 1
 }

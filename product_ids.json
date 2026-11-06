@@ -1169,6 +1169,13 @@
       "manufacturer": "KORG",
       "name": "Electribe ES-1"
     },
+    "KORG/M3": {
+      "active": true,
+      "aliases": [],
+      "id": 449,
+      "manufacturer": "KORG",
+      "name": "M3"
+    },
     "KORG/MS2000": {
       "active": true,
       "aliases": [],
@@ -1203,6 +1210,13 @@
       "id": 172,
       "manufacturer": "KORG",
       "name": "RADIAS"
+    },
+    "KORG/TRITON": {
+      "active": true,
+      "aliases": [],
+      "id": 450,
+      "manufacturer": "KORG",
+      "name": "TRITON"
     },
     "KORG/Wavestate": {
       "active": true,
@@ -2331,6 +2345,20 @@
       "manufacturer": "Roland",
       "name": "MC-707 GROOVEBOX"
     },
+    "Roland/MC-808": {
+      "active": true,
+      "aliases": [],
+      "id": 451,
+      "manufacturer": "Roland",
+      "name": "MC-808"
+    },
+    "Roland/MC-909": {
+      "active": true,
+      "aliases": [],
+      "id": 452,
+      "manufacturer": "Roland",
+      "name": "MC-909"
+    },
     "Roland/MX-1": {
       "active": true,
       "aliases": [],
@@ -3045,6 +3073,13 @@
       "manufacturer": "Yamaha",
       "name": "NSX-1"
     },
+    "Yamaha/RM1x": {
+      "active": true,
+      "aliases": [],
+      "id": 453,
+      "manufacturer": "Yamaha",
+      "name": "RM1x"
+    },
     "Yamaha/SEQTRAK": {
       "active": true,
       "aliases": [],
@@ -3093,6 +3128,34 @@
       "id": 442,
       "manufacturer": "Zoom",
       "name": "LiveTrak L6max"
+    },
+    "Zoom/MS-50G": {
+      "active": true,
+      "aliases": [],
+      "id": 454,
+      "manufacturer": "Zoom",
+      "name": "MS-50G"
+    },
+    "Zoom/MS-60B": {
+      "active": true,
+      "aliases": [],
+      "id": 455,
+      "manufacturer": "Zoom",
+      "name": "MS-60B"
+    },
+    "Zoom/MS-70CDR": {
+      "active": true,
+      "aliases": [],
+      "id": 456,
+      "manufacturer": "Zoom",
+      "name": "MS-70CDR"
+    },
+    "Zoom/MultiStomp MIDISTOMP": {
+      "active": true,
+      "aliases": [],
+      "id": 457,
+      "manufacturer": "Zoom",
+      "name": "MultiStomp MIDISTOMP"
     },
     "discoDSP/Corona": {
       "active": true,

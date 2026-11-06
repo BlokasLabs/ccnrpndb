@@ -29,6 +29,15 @@ Use [overrides.json](overrides.json) for local corrections without editing upstr
 CSVs. Binding overrides require a reason and must match exactly one binding.
 Product renames require an explicit `rename_from` override to preserve their ID.
 
+NRPN bindings with only one address byte are skipped and recorded as
+`incomplete_nrpn_address` warnings in `build-report.json`, including the parameter
+name, source location, address bytes, and original notes. For example, KORG TRITON
+drum controls use the LSB as a drum note selector rather than a fixed address.
+No missing byte is guessed. Valid CC bindings on the same row are retained; rows
+with only skipped NRPN bindings are omitted from the database. A local binding
+override can supply a concrete address; incomplete overridden bindings still
+fail validation.
+
 ## Database use and ID stability
 
 `parameter_picker` joins products, parameters, bindings, and source information.

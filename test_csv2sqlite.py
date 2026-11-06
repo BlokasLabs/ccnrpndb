@@ -99,6 +99,58 @@ class CatalogTests(unittest.TestCase):
 			self.query("SELECT lsb FROM bindings WHERE type='NRPN'"), [(3,)]
 		)
 
+	def test_incomplete_nrpn_addresses_are_reported_and_omitted(self):
+		notes = "NRPN LSB is the drum instrument note number 12-108 (C0-C8)."
+		self.write_product(rows=[
+			dict(parameter_name="Drum cutoff", nrpn_msb=20, notes=notes),
+			dict(parameter_name="Missing MSB", nrpn_lsb=12),
+			dict(parameter_name="Fixed control", nrpn_msb=1, nrpn_lsb=2),
+			dict(parameter_name="Dual control", cc_msb=74, nrpn_msb=21, notes=notes),
+		])
+		self.build()
+		self.assertEqual(self.query("SELECT parameter_name FROM parameters ORDER BY id"),
+			[("Fixed control",), ("Dual control",)])
+		self.assertEqual(self.query("SELECT type,msb,lsb FROM bindings ORDER BY id"),
+			[("NRPN", 1, 2), ("CC", 74, None)])
+		self.assertEqual(self.query("SELECT count(*) FROM search_index"), [(2,)])
+		report = json.loads(self.report.read_text())
+		self.assertEqual(report["warning_counts"]["incomplete_nrpn_address"], 3)
+		warnings = [w for w in report["warnings"] if w["code"] == "incomplete_nrpn_address"]
+		self.assertEqual(warnings[0]["context"], "Maker/Synth.csv:2:NRPN")
+		self.assertIn("Drum cutoff", warnings[0]["message"])
+		self.assertIn("MSB=20, LSB=None", warnings[0]["message"])
+		self.assertIn(notes, warnings[0]["message"])
+		self.assertNotIn("no_binding", report["warning_counts"])
+
+	def test_override_can_supply_a_concrete_nrpn_address(self):
+		self.write_product(rows=[dict(parameter_name="Drum cutoff", nrpn_msb=20)])
+		self.set_overrides({"Maker/Synth": {"bindings": [{
+			"match": {"parameter_name": "Drum cutoff", "type": "NRPN"},
+			"set": {"lsb": 36}, "reason": "Select one specific drum note",
+		}]}})
+		self.build()
+		self.assertEqual(self.query("SELECT msb,lsb,overridden FROM bindings"), [(20, 36, 1)])
+		self.assertNotIn("incomplete_nrpn_address", json.loads(self.report.read_text())["warning_counts"])
+
+	def test_invalid_nrpn_addresses_and_overrides_still_fail(self):
+		self.write_product()
+		self.build()
+		before = self.output.read_bytes(), self.registry.read_bytes()
+		self.write_product(rows=[dict(parameter_name="Bad address", nrpn_msb=128)])
+		with self.assertRaisesRegex(catalog.CatalogError, "outside 7-bit"):
+			self.build()
+		self.write_product(rows=[dict(parameter_name="Bad address", nrpn_msb="note number")])
+		with self.assertRaises(catalog.CatalogError):
+			self.build()
+		self.write_product(rows=[dict(parameter_name="Bad address", nrpn_msb=20)])
+		self.set_overrides({"Maker/Synth": {"bindings": [{
+			"match": {"parameter_name": "Bad address", "type": "NRPN"},
+			"set": {"lsb": None}, "reason": "Invalid incomplete override",
+		}]}})
+		with self.assertRaisesRegex(catalog.CatalogError, "missing/incomplete address"):
+			self.build()
+		self.assertEqual((self.output.read_bytes(), self.registry.read_bytes()), before)
+
 	def test_registry_preserves_ids_independently_of_output(self):
 		self.write_product("Z/Z")
 		self.build()

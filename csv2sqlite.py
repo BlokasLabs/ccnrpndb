@@ -217,6 +217,16 @@ def normalize_binding(row, typ, patch, context, report):
 		values[k] = integer(values[k], f"{context}:{k}")
 	if any(v is not None and not 0 <= v <= 127 for v in (values["msb"], values["lsb"])):
 		raise CatalogError(f"{context}: address outside 7-bit range")
+	if typ == "NRPN" and None in (values["msb"], values["lsb"]) and not patch:
+		warn(
+			report,
+			"incomplete_nrpn_address",
+			context,
+			f"Skipped {row.get('parameter_name', '')!r}: NRPN MSB={values['msb']!r}, "
+			f"LSB={values['lsb']!r}; a concrete address is required. "
+			f"Source notes: {row.get('notes', '')}",
+		)
+		return None
 	if (
 		values["msb"] is None
 		and values["lsb"] is None
@@ -466,6 +476,8 @@ def build_database(conn, active, registry, overrides, report):
 				),
 			)
 			found = False
+			emitted = False
+			skipped_incomplete_nrpn = False
 			for typ in TYPES:
 				if not any(
 					row.get(f"{typ.lower()}_{part}") not in (None, "")
@@ -492,6 +504,10 @@ def build_database(conn, active, registry, overrides, report):
 						patch.update(rule["set"])
 						reasons.append(rule["reason"])
 				values = normalize_binding(row, typ, patch, f"{ctx}:{typ}", report)
+				if values is None:
+					skipped_incomplete_nrpn = True
+					continue
+				emitted = True
 				raw = values.pop("usage")
 				eid = usage_id(
 					conn, raw, ctx, report, values["min_value"], values["max_value"]
@@ -530,6 +546,9 @@ def build_database(conn, active, registry, overrides, report):
 						).casefold(),
 					),
 				)
+			if skipped_incomplete_nrpn and not emitted:
+				# Do not leave unselectable parameter records for skipped address templates.
+				conn.execute("DELETE FROM parameters WHERE id=?", (pid,))
 			if not found:
 				warn(
 					report,
